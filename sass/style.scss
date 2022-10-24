@@ -2,30 +2,34 @@
 @use "./colors" as *;
 @use "./fonts" as *;
 
-header {
-}
+.container {
+	display: grid;
 
-nav {
-	.menu {
-		ul {
-			li {
+	header {
+	}
+
+	nav {
+		.menu {
+			ul {
+				li {
+				}
 			}
 		}
 	}
-}
 
-main {
-	.notifications {
-	}
-	.wrapper {
+	main {
+		.notifications {
+		}
+		.wrapper {
+		}
+
+		.addNewBtn {
+		}
+
+		.addNew {
+		}
 	}
 
-	.addNewBtn {
+	footer {
 	}
-
-	.addNew {
-	}
-}
-
-footer {
 }
